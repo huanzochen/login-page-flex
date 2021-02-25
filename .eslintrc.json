@@ -1,11 +1,13 @@
 {
     "parserOptions": {
-        "ecmaVersion": 7,
+        "ecmaVersion": 12,
         "sourceType": "module",
+        "allowImportExportEverywhere": true,
         "ecmaFeatures": { // 識別 ES6 語法
           "jsx": true
         }
     },
+    "ignorePatterns": ["public/*","build/*"],
     "rules": {
         "quotes": ["error", "single"],
         "semi": ["error", "never"],
@@ -28,6 +30,8 @@
         // 建議使用擴展語法而非.apply()
         "prefer-spread": ["error"],
         // 優先使用 spread operator 而不是 https://cn.eslint.org/docs/rules/prefer-object-spread
-        "prefer-object-spread": ["error"]
+        "prefer-object-spread": ["error"],
+        "object-property-newline": ["error"],
+        "object-curly-spacing": ["error", "always"]
     }
 }
