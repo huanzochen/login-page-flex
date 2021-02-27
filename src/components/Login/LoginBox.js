@@ -1,4 +1,5 @@
 import React from 'react'
+import './LoginBox.css'
 
 class LoginBox extends React.Component {
   constructor(props) {
@@ -8,8 +9,13 @@ class LoginBox extends React.Component {
 
   render() {
     return (
-      <div>  
-        Login Box
+      <div className="login_box__hero-row">
+        <div className="col">
+          <input></input>
+        </div>
+        <div className="col">
+          <input></input>
+        </div>
       </div>
 
     )

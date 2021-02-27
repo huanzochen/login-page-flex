@@ -1,9 +1,9 @@
 import React from 'react'
-import Banner from './pages/Banner'
-import AccountTypes from './pages/AccountTypes'
-import WelcomeText from './pages/WelcomeText'
-import Login from './pages/Login'
-import Footer from './pages/Footer'
+import Banner from './pages/Banner/Banner'
+import AccountTypes from './pages/AccountTypes/AccountTypes'
+import WelcomeText from './pages/WelcomeText/WelcomeText'
+import Login from './pages/Login/Login'
+import Footer from './pages/Footer/Footer'
 import './styles.css'
 
 

@@ -1,0 +1,14 @@
+.btn {
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+
+.lightblue {
+  background-color: #38b5ed;
+  color: #fff;
+  border: none;
+}

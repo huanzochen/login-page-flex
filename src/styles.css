@@ -1,4 +1,6 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+* {
+  font-family: "Gill Sans", sans-serif;
+
+  /* text-align: center; */
+  background-color: #fff;
 }

@@ -1,0 +1,30 @@
+.login_box__hero-row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #bbeeae;
+}
+
+.login_box__hero-row .col {
+  padding: 10px;
+  background-color: #8181dd;
+  text-align: center;
+
+  /* background-color: rgb(235, 211, 118); */
+}
+
+.login_box__hero-row input {
+  border: 3px solid #e8e9eb;
+  border-radius: 4px;
+  line-height: 2.7;
+  width: 90%;
+  padding: 5px 10px;
+}
+
+.login_box__hero-row input:focus {
+  /* border: 3px solid #e8e9eb; */
+
+  outline: none;
+  border-color: #50b6e3;
+  transition: border-color 0.2s ease-in-out;
+}

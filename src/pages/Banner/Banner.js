@@ -1,4 +1,6 @@
 import React from 'react'
+import { bannerObj } from './Data'
+import './Banner.css'
 
 class Banner extends React.Component {
   constructor(props) {
@@ -8,7 +10,11 @@ class Banner extends React.Component {
 
   render() {
     return (
-      <h1>Choose Account Type</h1>
+      <div className="banner">
+        <h1 className='heading'>
+          {bannerObj.headLine}
+        </h1>
+      </div>
     )
   }
 }

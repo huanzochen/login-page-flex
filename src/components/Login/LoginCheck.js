@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from '../Button'
+import './LoginCheck.css'
 
 class LoginCheck extends React.Component {
   constructor(props) {
@@ -8,10 +10,26 @@ class LoginCheck extends React.Component {
 
   render() {
     return (
-      <div>  
-        LoginCheck
+      <div className="login_check__hero-row">  
+        <div className="register">
+          <div className="text">
+            <div className="login_check__text-wrapper">
+              <p>{this.props.register_hint}</p>
+            </div>
+          </div>
+          <div className="href">
+            <div className="login_check__href-wrapper">
+              <a href={this.props.register_href} >{this.props.register_href}</a>
+            </div>
+          </div>
+        </div>
+        <div className="login">
+          <Button
+            children={this.props.login_title}
+            buttonColor='lightblue'
+          ></Button>
+        </div>
       </div>
-
     )
   }
 }

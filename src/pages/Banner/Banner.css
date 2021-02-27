@@ -1,0 +1,12 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(221, 235, 173);
+}
+
+.heading {
+  flex-direction: column;
+  font-size: 21px;
+  font-weight: 500;
+  color: #3ab6ed;
+}

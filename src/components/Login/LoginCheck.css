@@ -1,0 +1,50 @@
+.login_check__hero-row {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(183, 223, 175);
+  padding: 10px;
+  justify-content: center;
+}
+
+.login_check__hero-row .register {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 2;
+  background-color: rgb(158, 143, 214);
+  padding: 10px;
+}
+
+.login_check__hero-row .register .text {
+  padding-left: 40px;
+}
+
+.login_check__hero-row .register .href {
+  padding-left: 5px;
+}
+
+.login_check__text-wrapper p {
+  color: #a2a2a2;
+  background-color: rgb(231, 147, 220);
+}
+
+.login_check__href-wrapper a {
+  color: #50b6e3;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: rgb(222, 233, 129);
+}
+
+.login_check__hero-row .login {
+  flex-grow: 1;
+  background-color: rgb(194, 114, 183);
+  text-align: center;
+}
+
+.login_check__hero-row .login button {
+  margin-top: 7%;
+  width: 40%;
+  height: 50%;
+  max-width: 50%;
+  max-height: 50%;
+}
