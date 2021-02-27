@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faKey } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import './LoginBox.css'
 
 class LoginBox extends React.Component {
@@ -14,12 +17,10 @@ class LoginBox extends React.Component {
   }
 
   clickLoginBox() {
-    console.log(this.state.loginIsClick)
     this.setState({ loginIsClick: !this.state.loginIsClick })
   }
 
   clickPasswordBox() {
-    console.log(this.state.passwordIsClick)
     this.setState({ passwordIsClick: !this.state.passwordIsClick })
   }
 
@@ -31,12 +32,31 @@ class LoginBox extends React.Component {
         <form onSubmit={this.handleSubmit} >
           <div className="col">
             <div className={`login_box__input-box ${loginBoxIsSelect}`} onClick={this.clickLoginBox}>
-              <input name="username" onChange={this.props.handleChange} placeholder={this.props.email_hint} value={this.props.username}></input>
+              <div className='login_box__input-box-icon'>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+              <div className='login_box__input-box-input'>
+                <input name="username" onChange={this.props.handleChange} placeholder={this.props.email_hint} value={this.props.username}></input>
+              </div>
+              <div className='login_box__input-box-line'>
+              </div>
+              <div className='login_box__input-box-extra'>
+              </div>
             </div>
           </div>
           <div className="col">
             <div className={`login_box__input-box ${passwordBoxIsSelect}`} onClick={this.clickPasswordBox}>
-              <input name="password" onChange={this.props.handleChange} placeholder={this.props.password_hint} value={this.props.password}></input>
+              <div className='login_box__input-box-icon'>
+                <FontAwesomeIcon icon={faKey} />
+              </div>
+              <div className='login_box__input-box-input'>
+                <input name="password" onChange={this.props.handleChange} placeholder={this.props.password_hint} value={this.props.password}></input>
+              </div>
+              <div className='login_box__input-box-line'>
+              </div>
+              <div className='login_box__input-box-extra'>
+                <p> {this.props.password_extra} </p>
+              </div>
             </div>
           </div>
         </form>

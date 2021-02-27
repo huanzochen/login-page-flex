@@ -22,6 +22,22 @@ class Login extends React.Component {
 
   handleSubmit(event) {
     const { username, password } = this.state
+    const usernameArray = Array.from(username)
+    const passwordArray = Array.from(password)
+    if (usernameArray.length < 6 || passwordArray.length < 6) alert('帳號密碼長度不足!')
+    else {
+      for (let i = 0; i <= usernameArray.length - 6; i++) {
+        const userValidate = usernameArray.slice(i, i + 6).join('')
+        for (let k = 0; k <= passwordArray.length - 6; k++) {
+          const passwordValidate = passwordArray.slice(k, k + 6).join('')
+          if (userValidate === passwordValidate) {
+            alert('不通過')
+            return
+          }
+        }
+      }
+      alert('通過')
+    }
     event.preventDefault()
   }
 
