@@ -6,25 +6,40 @@
 }
 
 .login_box__hero-row .col {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 10px 30px;
   background-color: #8181dd;
   text-align: center;
+}
 
-  /* background-color: rgb(235, 211, 118); */
+.login_box__hero-row .col .login_box__input-box {
+  border: 3px solid #e8e9eb;
+  border-radius: 4px;
+
+  /* width: 100%; */
+
+  /* max-width: 100%; */
+  padding: 0 0 0 0;
+}
+
+.box-lightblue {
+  border: 3px solid #50b6e3 !important;
+  transition: border-color 0.15s ease-in-out;
 }
 
 .login_box__hero-row input {
-  border: 3px solid #e8e9eb;
+  outline: none;
   border-radius: 4px;
   line-height: 2.7;
-  width: 90%;
-  padding: 5px 10px;
+  width: 80%;
+
+  /* padding: 5px 10px; */
 }
 
+/*
 .login_box__hero-row input:focus {
-  /* border: 3px solid #e8e9eb; */
-
   outline: none;
   border-color: #50b6e3;
   transition: border-color 0.2s ease-in-out;
-}
+} */

@@ -4,24 +4,31 @@ import './AccountType.css'
 class AccountType extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      isClick: false
+    }
+    this.clickType = this.clickType.bind(this)
+  }
+
+  clickType() {
+    this.setState({ isClick: !this.state.isClick })
   }
 
   render() {
+    const typeIsSelect = this.state.isClick ? 'lightblue' : ''
     return (
       <>
         <div className="row">
-          <div className="acccount_type__box">
-            <div className="acccount_type__img-wrapper">
-              {/* <img 
+          <div className={`acccount_type__box ${typeIsSelect}`} onClick={this.clickType}>
+            <div className="acccount_type__img-wrapper" >
+              <img 
                 src={this.props.icon} 
                 alt={this.props.typeName}
-                className="acccount_type__img"></img>  */}
-              <svg className="acccount_type__img"
-              ><polygon src={this.props.icon} ></polygon>
-              </svg>
+                className="acccount_type__img"></img> 
             </div>
-            {this.props.typeName}
+            <div className="acccount_type__text-wrapper">
+              {this.props.typeName}
+            </div>
           </div>
         </div>
       </>

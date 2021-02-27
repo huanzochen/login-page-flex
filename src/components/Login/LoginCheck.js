@@ -24,10 +24,13 @@ class LoginCheck extends React.Component {
           </div>
         </div>
         <div className="login">
-          <Button
-            children={this.props.login_title}
-            buttonColor='lightblue'
-          ></Button>
+          <div className="login_check__button-wrapper">
+            <Button
+              children={this.props.login_title}
+              buttonColor='lightblue'
+              handleSubmit={this.props.handleSubmit}
+            ></Button>
+          </div>
         </div>
       </div>
     )

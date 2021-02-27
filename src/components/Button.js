@@ -15,6 +15,7 @@ class Button extends React.Component {
     return (
       <button
         className={`btn ${checkButtonColor}`}
+        onClick={this.props.handleSubmit}
       >{this.props.children}</button>
     )
   }
