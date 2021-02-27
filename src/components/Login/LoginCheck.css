@@ -53,7 +53,6 @@
 }
 
 .login_check__button-wrapper {
-  padding: 10% 0 10% 0;
-
-  /* background-color: rgb(194, 114, 183); */
+  padding: 15% 0 10% 0;
+  background-color: rgb(194, 114, 183);
 }
