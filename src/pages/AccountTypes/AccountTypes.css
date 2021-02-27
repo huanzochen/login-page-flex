@@ -1,11 +1,13 @@
 .acccount_types__section {
   padding: 10px;
-  background-color: rgb(233, 187, 153);
+
+  /* background-color: rgb(233, 187, 153); */
 }
 
 .account_types__hero-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(168, 206, 159);
+
+  /* background-color: rgb(168, 206, 159); */
 }

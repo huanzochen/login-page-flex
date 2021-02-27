@@ -1,7 +1,8 @@
 .banner {
   display: flex;
   justify-content: center;
-  background-color: rgb(221, 235, 173);
+
+  /* background-color: rgb(221, 235, 173); */
 }
 
 .heading {

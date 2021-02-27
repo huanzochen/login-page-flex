@@ -1,6 +1,7 @@
 .footer {
-  background-color: rgb(228, 173, 133);
   margin-bottom: -1em;
+
+  /* background-color: rgb(228, 173, 133); */
 }
 
 .footer__svg-wrapper {

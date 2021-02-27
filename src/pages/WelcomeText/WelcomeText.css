@@ -3,14 +3,16 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background-color: rgb(133, 228, 129);
+
+  /* background-color: rgb(133, 228, 129); */
 }
 
 .welcome_text__hero-row .col {
   max-width: 100%;
   margin-top: -10px;
   margin-bottom: -10px;
-  background-color: rgb(235, 211, 118);
+
+  /* background-color: rgb(235, 211, 118); */
 }
 
 .welcome_text__text-wrapper p {
