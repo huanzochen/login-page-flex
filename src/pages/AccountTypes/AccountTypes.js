@@ -6,8 +6,10 @@ import './AccountTypes.css'
 class AccountTypes extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {}
-  }        
+    this.state = {
+      isClick: false
+    }
+  }
 
   render() {
     return (
@@ -15,8 +17,14 @@ class AccountTypes extends React.Component {
         <div className="acccount_types__section">  
           <div className="container">
             <div className="account_types__hero-row">
-              <AccountType {...AccountTypesObjOne}></AccountType>
-              <AccountType {...AccountTypesObjTwo}></AccountType>
+              <AccountType 
+                {...AccountTypesObjOne}
+                changeAccountType={this.props.changeAccountType}
+              ></AccountType>
+              <AccountType 
+                {...AccountTypesObjTwo}
+                changeAccountType={this.props.changeAccountType}
+              ></AccountType>
             </div>
           </div>
         </div>  

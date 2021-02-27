@@ -15,7 +15,7 @@ class WelcomeText extends React.Component {
           <div className="welcome_text__hero-row">
             <div className="col">
               <div className="welcome_text__text-wrapper">
-                <p>{welcomeTextObj.title}</p>
+                <p>{welcomeTextObj.title}{this.props.type}{'!'}</p>
               </div>
             </div>
             <div className="col">

@@ -10,14 +10,26 @@ import './styles.css'
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      type:''
+    }
+    this.changeAccountType = this.changeAccountType.bind(this)
   }
+
+  changeAccountType(selectedTypeName) {
+    this.setState({ type:selectedTypeName.toLowerCase() })
+  }
+
   render() {
     return (
       <div>
         <Banner></Banner>
-        <AccountTypes></AccountTypes>
-        <WelcomeText></WelcomeText>
+        <AccountTypes
+          changeAccountType={this.changeAccountType}
+        ></AccountTypes>
+        <WelcomeText
+          type={this.state.type}
+        ></WelcomeText>
         <Login></Login>
         <Footer></Footer>
       </div>

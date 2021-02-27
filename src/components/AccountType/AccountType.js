@@ -11,6 +11,7 @@ class AccountType extends React.Component {
   }
 
   clickType() {
+    this.props.changeAccountType(this.props.typeName)
     this.setState({ isClick: !this.state.isClick })
   }
 

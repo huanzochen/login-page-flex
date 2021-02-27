@@ -46,9 +46,11 @@
 }
 
 .login_box__input-box-extra {
+  flex-grow: 1;
   color: #50b6e3;
   font-size: 13px;
   letter-spacing: 0.3px;
+  text-align: center;
   width: 7%;
 }
 
