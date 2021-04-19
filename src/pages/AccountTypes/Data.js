@@ -1,10 +1,10 @@
 export const AccountTypesObjOne = {
-  typeName: 'Docter',
-  icon: 'Assets/img_doctor_90@3x.svg'
+  typeName: 'Teacher',
+  icon: 'Assets/teacher.svg'
 }
 
 export const AccountTypesObjTwo = {
-  typeName: 'Patient',
-  icon: 'Assets/img_patient_90@3x.svg'
+  typeName: 'Engineer',
+  icon: 'Assets/engineer.svg'
 }
 

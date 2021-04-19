@@ -27,7 +27,7 @@ class LoginCheck extends React.Component {
           <div className="login_check__button-wrapper">
             <Button
               children={this.props.login_title}
-              buttonColor='lightblue'
+              buttonColor='lightred'
               handleSubmit={this.props.handleSubmit}
             ></Button>
           </div>

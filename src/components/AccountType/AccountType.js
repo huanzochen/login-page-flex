@@ -16,7 +16,7 @@ class AccountType extends React.Component {
   }
 
   render() {
-    const typeIsSelect = this.state.isClick ? 'lightblue' : ''
+    const typeIsSelect = this.state.isClick ? 'lightred' : ''
     return (
       <>
         <div className="row">

@@ -5,13 +5,13 @@ class Button extends React.Component {
   constructor(props) {
     super(props)
     this.state = {}
-    this.COLOR = ['lightblue']
+    this.COLOR = ['lightblue', 'lightred']
   }
 
   render() {
     const checkButtonColor = this.COLOR.includes(this.props.buttonColor) ?
       this.props.buttonColor
-      : COLOR[0]
+      : this.COLOR[0]
     return (
       <button
         className={`btn ${checkButtonColor}`}

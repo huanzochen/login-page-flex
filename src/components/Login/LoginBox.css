@@ -26,8 +26,8 @@
   padding: 0 0 0 0;
 }
 
-.box-lightblue {
-  border: 3px solid #50b6e3 !important;
+.login_box__hero-row .col .login_box__input-box.box-lightred {
+  border: 3px solid #e49587;
   transition: border-color 0.15s ease-in-out;
 }
 
@@ -47,7 +47,7 @@
 
 .login_box__input-box-extra {
   flex-grow: 1;
-  color: #50b6e3;
+  color: #e49587;
   font-size: 13px;
   letter-spacing: 0.3px;
   text-align: center;

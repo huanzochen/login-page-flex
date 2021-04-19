@@ -25,8 +25,8 @@ class LoginBox extends React.Component {
   }
 
   render() {
-    const loginBoxIsSelect = this.state.loginIsClick ? 'box-lightblue' : ''
-    const passwordBoxIsSelect = this.state.passwordIsClick ? 'box-lightblue' : ''
+    const loginBoxIsSelect = this.state.loginIsClick ? 'box-lightred' : ''
+    const passwordBoxIsSelect = this.state.passwordIsClick ? 'box-lightred' : ''
     return (
       <div className="login_box__hero-row">
         <form onSubmit={this.handleSubmit} >

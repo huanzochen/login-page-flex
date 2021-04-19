@@ -14,9 +14,13 @@
   border: 3px solid #c9edfd;
 }
 
+.lightred {
+  border: 3px solid #fdc9c9;
+}
+
 .acccount_type__img-wrapper {
   background-color: transparent;
-  padding: 10px 0 0 0;
+  padding: 20px 0 10px 0;
   margin: 0 -20px;
 }
 

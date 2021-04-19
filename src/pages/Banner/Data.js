@@ -1,3 +1,3 @@
 export const bannerObj = {
-  headLine: 'Choose Account Type'
+  headLine: 'Choose Job Type'
 }
