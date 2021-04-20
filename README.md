@@ -1,14 +1,14 @@
-# jjoo-offline-test
+# login-page-flex
 Created with CodeSandbox
 
 # Demo site
-## [Link](https://jjoo-offline-test.herokuapp.com/ "jjoo-off-test")
+## [Link](https://login-page-flex.herokuapp.com/ "login-page-flex")
 
 
 # How to start without sandbox?
 ```
 // clone the repo to local
-git clone https://github.com/huanzochen/jjoo-offline-test.git
+git clone https://github.com/huanzochen/login-page-flex.git
 
 // open the repo and run
 npm install
