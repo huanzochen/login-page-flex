@@ -1,5 +1,5 @@
 # login-page-flex
-A login page.
+A login mockup page used built with flex css.
 
 # Demo site
 ## [Link](https://login-page-flex.herokuapp.com/ "login-page-flex")
