@@ -1,5 +1,5 @@
 # login-page-flex
-Created with CodeSandbox
+A login page.
 
 # Demo site
 ## [Link](https://login-page-flex.herokuapp.com/ "login-page-flex")
